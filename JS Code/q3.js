@@ -6,8 +6,8 @@ let firstName = '', lastName = '';
 let temp = fullName.indexOf(' ');
 uc = fullName.toUpperCase();
 lc = fullName.toLowerCase();
-console.log("Upper Name:", uc);
-console.log("Lower Name:", lc);
+console.log("Upper Case:", uc);
+console.log("Lower Case:", lc);
 for (let i = 0; i < fullName.length; i++) {
     if (i === 0) {
         if (fullName[i] >= "a" && fullName[i] <= "z") {
@@ -21,5 +21,5 @@ for (let i = 0; i < fullName.length; i++) {
     }
 }
 tc = firstName + ' ' + lastName;
-console.log(tc);
+console.log(`Title Case: ${tc}`);
 console.log("\n");
