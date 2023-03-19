@@ -1,6 +1,0 @@
-"use strict";
-//Question 5
-let famousPerson = "Albert Einstein";
-let message = "A person who never made a mistake never tried anything new.";
-console.log(famousPerson, ',"', message, '"');
-console.log("\n");

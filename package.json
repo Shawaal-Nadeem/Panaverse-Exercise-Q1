@@ -1,0 +1,23 @@
+{
+  "name": "panaverse-exercise-q1",
+  "version": "1.0.0",
+  "description": "Question 1 to 31",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shawaal-Nadeem/Panaverse-Exercise-Q1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shawaal-Nadeem/Panaverse-Exercise-Q1/issues"
+  },
+  "homepage": "https://github.com/Shawaal-Nadeem/Panaverse-Exercise-Q1#readme",
+  "devDependencies": {
+    "@types/node": "^18.15.3"
+  }
+}
