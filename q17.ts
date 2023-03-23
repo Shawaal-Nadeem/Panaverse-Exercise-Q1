@@ -1,4 +1,5 @@
 //Question 17
+let guestArray = ["Nancy", "Hande Ercel", "Killjoy"];
 console.log(`I can invite only two people for dinner`);
 console.log(`${guestArray[5]} Sorry i can't invite them to dinner.`);
 guestArray.pop();

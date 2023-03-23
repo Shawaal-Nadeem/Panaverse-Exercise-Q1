@@ -1,4 +1,5 @@
 //Question 15
+let guestArray = ["Nancy", "Hande Ercel", "Killjoy"];
 console.log(guestArray[2], " can`t make the dinner.");
 let newPerson:string = "Hania Amir";
 console.log("Modify list and replace ", guestArray[2], "with", newPerson);

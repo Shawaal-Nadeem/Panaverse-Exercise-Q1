@@ -1,4 +1,5 @@
 //Question 16
+let guestArray = ["Nancy", "Hande Ercel", "Killjoy"];
 console.log("Hurrah!!! We found a bigger dinner table.");
 guestArray.unshift("Shawaal");
 guestArray.splice(Math.floor(guestArray.length / 2), 0, "KillJoy");
