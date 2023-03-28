@@ -1,5 +1,5 @@
 //Question 17
-let guestArray = ["Nancy", "Hande Ercel", "Killjoy"];
+import guestArray from "./q16";
 console.log(`I can invite only two people for dinner`);
 console.log(`${guestArray[5]} Sorry i can't invite them to dinner.`);
 guestArray.pop();
@@ -11,8 +11,17 @@ for (let i = 0; i < guestArray.length; i++) {
     console.log(`${guestArray[i]} You are still inviting them to dinner.`);
   }
 }
-guestArray = [""];
+
 console.log(`My List is Empty`);
-for (let i = 0; i < guestArray.length; i++) {
+
+guestArray.pop();
+guestArray.pop();
+guestArray.pop();
+guestArray.pop();
+guestArray.pop();
+
+//display list is empty
+for(let i=0;i<guestArray.length;i++)
+{
   console.log(guestArray[i]);
 }

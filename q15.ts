@@ -16,3 +16,4 @@ for (let i = 0; i < guestArray.length; i++) {
   }
 }
 console.log("\n");
+export default guestArray;
